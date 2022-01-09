@@ -15,6 +15,6 @@ def pick_movie(c):
 	except:
 		c.gen_val()
 		pick_movie(c)
-		
-pick_movie(gentt())
+c = gentt()
+pick_movie(c)
 webbrowser.open(c.url)
